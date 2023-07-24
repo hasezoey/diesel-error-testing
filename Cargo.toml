@@ -6,8 +6,7 @@ edition = "2021"
 license = "MIT"
 
 [dependencies]
-diesel = { version = "2.1", features = ["sqlite", "chrono", "returning_clauses_for_sqlite_3_35"] }
 
 [[bin]]
-name = "mh"
+name = "test"
 path = "src.rs"
