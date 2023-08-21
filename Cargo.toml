@@ -6,6 +6,7 @@ edition = "2021"
 license = "MIT"
 
 [dependencies]
+crossbeam = "0.8"
 
 [[bin]]
 name = "test"
